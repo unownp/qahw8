@@ -37,12 +37,12 @@ public class AutomationPracticeFormParametrizedTest extends TestBase {
                 .setUserNumber(1234567890)
                 .calendarComponent.setDate(1991, "July", 1);
 
-        registrationFormPage.setSubject("i")
+        registrationFormPage.setSubject("Hindi")
                 .setHobbies("Sports")
                 .uploadFile("src/test/resources/scale_1200.jpg")
                 .setAddress("voruyubivay")
-                .setState("t")
-                .setCity("a");
+                .setState("Uttar")
+                .setCity("Agra");
 
         $("#submit").click();
 
@@ -61,12 +61,12 @@ public class AutomationPracticeFormParametrizedTest extends TestBase {
                 .setUserNumber(1234567890)
                 .calendarComponent.setDate(year, month, day);
 
-        registrationFormPage.setSubject("i")
+        registrationFormPage.setSubject("Hindi")
                 .setHobbies("Sports")
                 .uploadFile("src/test/resources/scale_1200.jpg")
                 .setAddress("voruyubivay")
-                .setState("t")
-                .setCity("a");
+                .setState("Uttar")
+                .setCity("Agra");
 
         $("#submit").click();
 
