@@ -1,21 +1,15 @@
-package np.qa.lesson5.tests;
+package np.qa.lesson9.tests;
 
-import com.codeborne.selenide.Configuration;
-import np.qa.lesson5.pages.RegistrationFormPage;
-import np.qa.lesson5.pages.components.CalendarComponent;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.Test;
+import np.qa.lesson9.pages.RegistrationFormPage;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
 import org.junit.jupiter.params.provider.MethodSource;
 
-import java.io.File;
 import java.util.stream.Stream;
 
 import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Condition.visible;
-import static com.codeborne.selenide.Selectors.byId;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;
 

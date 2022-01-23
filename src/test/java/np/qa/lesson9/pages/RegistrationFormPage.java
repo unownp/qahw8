@@ -1,12 +1,11 @@
-package np.qa.lesson5.pages;
+package np.qa.lesson9.pages;
 
 import com.codeborne.selenide.SelenideElement;
-import np.qa.lesson5.pages.components.CalendarComponent;
-import np.qa.lesson5.pages.components.FixedBanComponent;
+import np.qa.lesson9.pages.components.CalendarComponent;
+import np.qa.lesson9.pages.components.FixedBanComponent;
 
 import java.io.File;
 
-import static com.codeborne.selenide.Configuration.baseUrl;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.$;
 import static com.codeborne.selenide.Selenide.open;

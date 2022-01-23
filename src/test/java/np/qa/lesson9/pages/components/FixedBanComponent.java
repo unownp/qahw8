@@ -1,7 +1,6 @@
-package np.qa.lesson5.pages.components;
+package np.qa.lesson9.pages.components;
 
 import com.codeborne.selenide.SelenideElement;
-import np.qa.lesson5.pages.RegistrationFormPage;
 
 import static com.codeborne.selenide.Selenide.$;
 
