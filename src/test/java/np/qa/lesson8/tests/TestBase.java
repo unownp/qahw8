@@ -1,7 +1,7 @@
-package np.qa.lesson9.tests;
+package np.qa.lesson8.tests;
 
 import com.codeborne.selenide.Configuration;
-import np.qa.lesson9.pages.components.FixedBanComponent;
+import np.qa.lesson8.pages.components.FixedBanComponent;
 import org.junit.jupiter.api.BeforeAll;
 
 public class TestBase {

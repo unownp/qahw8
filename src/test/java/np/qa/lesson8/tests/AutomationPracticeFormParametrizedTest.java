@@ -1,6 +1,6 @@
-package np.qa.lesson9.tests;
+package np.qa.lesson8.tests;
 
-import np.qa.lesson9.pages.RegistrationFormPage;
+import np.qa.lesson8.pages.RegistrationFormPage;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.CsvSource;
