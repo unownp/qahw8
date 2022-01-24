@@ -40,7 +40,7 @@ public class RegistrationFormPage {
 
     public RegistrationFormPage openPage() {
         open(relativeUrl);
-        fixedBanComponent.closeFixedBan();
+        //fixedBanComponent.closeFixedBan();
         return this;
     }
 
